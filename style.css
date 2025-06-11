@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 body{
     background-color: #f4f4f4;
+    font-family: Bebas Neue;
 }
 
 nav .menu{
@@ -151,7 +155,53 @@ footer h2{
     display: none;
 }
 
+.content.page img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.content{
+    font-size: 22px;
+}
+
+.content.page p{
+    text-align: justify;
+}
+
+.page #serviços{
+    background-color: #f4f4f4;
+    color: #4d4d4d;
+}
+
+.page #serviços h2, .page #serviços i{
+    color: #4d4d4d;
+}
+
+a:hover{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+a{
+    opacity: 1s;
+    transition: 0.5s;
+}
+
+
+
 @media (min-width:680px){
+
+    .content.page p{
+        width: 60%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .content.page img{
+        width: 30%;
+        font-display: inline-block;
+    }
+    
     .menu-mobile{
         display: none;
     }
@@ -171,7 +221,7 @@ footer h2{
     }
 
     .item{
-        width:29%!important;
+        width:28%!important;
         padding: 1%;
         margin: 1%;
         display: inline-block;
